@@ -101,6 +101,12 @@ body {
     text-decoration: none;
 }
 
+.recuperar-senha a:hover {
+    font-size: 16px;
+    color: #3498db;
+    text-decoration: underline;
+}
+
 button { 
     margin: 15px 0;
     width: 100%;
@@ -117,6 +123,25 @@ button {
     cursor: pointer;
     font-family: "Playfair Display";
     color: #000000;
+    box-shadow: 2px 2px 5px #babecc, -5px -5px 10px #ffffff73;
+}
+
+button:hover { 
+    margin: 15px 0;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: 600;
+    background: #dde1e7;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: "Playfair Display";
+    color: #777777;
     box-shadow: 2px 2px 5px #babecc, -5px -5px 10px #ffffff73;
 }
 

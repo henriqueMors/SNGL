@@ -27,7 +27,7 @@ body {
 }
 
 .content {
-    width: 530px;
+    width: 375px;
     height: 700px;
     padding: 40px 30px;
     background: #dde1e7;
@@ -73,7 +73,7 @@ body {
 .campo input {
     height: 100%;
     width: 100%;
-    padding-left: 29%;
+    padding-left: 42%;
     outline: none;
     border: none;
     font-size: 18px;

@@ -40,41 +40,41 @@
             <form action="#">
                 <div class="campo">
                     <span class="fas fa-user"></span>
-                    <input type="text" required oninvalid="this.setCustomValidity('Insira seu nome completo')" 
+                    <input type="text" name="nome_completo" id="nome_completo" class="inputUser" required oninvalid="this.setCustomValidity('Insira seu nome completo')" 
                     onchange="try{setCustomValidity('')}catch(e){}">
-                    <label for="">Nome Completo</label>
+                    <label for="nome_completo">Nome Completo</label>
                 </div>
                 <div class="campo">
                     <span class="fas fa-user"></span>
-                    <input type="email" required oninvalid="this.setCustomValidity('Insira um email válido')" 
+                    <input type="email" name="email" id="email" class="inputUser"required oninvalid="this.setCustomValidity('Insira um email válido')" 
                     onchange="try{setCustomValidity('')}catch(e){}">
-                    <label>E-mail</label>
+                    <label for="email">E-mail</label>
                 </div>
                 <div class="campo">
                     <span class="fas fa-lock"></span>
-                    <input type="number" required oninvalid="this.setCustomValidity('Insira seu número de telefone com DDD')" 
+                    <input type="number" name="telefone" id="telefone" class="inputUser" required oninvalid="this.setCustomValidity('Insira seu número de telefone com DDD')" 
                     onchange="try{setCustomValidity('')}catch(e){}">
-                    <label>Telefone</label>
+                    <label for="telefone">Telefone</label>
                 </div>
                 <div class="campo">
                     <span class="fas fa-user"></span>
-                    <input type="date" required oninvalid="this.setCustomValidity('Insira sua data de nascimento')" 
+                    <input type="date"  name="nascimento" id="nascimento" class="inputUser" required oninvalid="this.setCustomValidity('Insira sua data de nascimento')" 
                     onchange="try{setCustomValidity('')}catch(e){}">
-                    <label>Nascimento</label>
+                    <label for="nascimento">Nascimento</label>
                 </div>
                 <div class="campo">
                     <span class="fas fa-lock"></span>
-                    <input type="password" required oninvalid="this.setCustomValidity('Insira sua senha')" 
+                    <input type="password"  name="senha" id="senha" class="inputUser" required oninvalid="this.setCustomValidity('Insira sua senha')" 
                     onchange="try{setCustomValidity('')}catch(e){}">
-                    <label>Senha</label>
+                    <label for="senha">Senha</label>
                 </div>
                 <div class="campo">
                     <span class="fas fa-lock"></span>
-                    <input type="password" required oninvalid="this.setCustomValidity('Confirme sua senha')" 
+                    <input type="password"  name="confsenha" id="confsenha" class="inputUser" required oninvalid="this.setCustomValidity('Confirme sua senha')" 
                     onchange="try{setCustomValidity('')}catch(e){}">
-                    <label>Confirmar Senha</label>
+                    <label for="confirmar_senha">Confirmar Senha</label>
                 </div>
-                <button>Cadastrar</button>
+                <button type="submit" name="submit" id="submit">Cadastrar</button>
                 <div class="cadastrar">
                     Já é registrado?
                     <a href="login.html">Faça seu login</a>

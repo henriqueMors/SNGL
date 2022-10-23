@@ -57,15 +57,27 @@
                     <label>Telefone</label>
                 </div>
                 <div class="campo">
-                    <span class="fas fa-lock"></span>
+                    <span class="fas fa-user"></span>
                     <input type="date" required oninvalid="this.setCustomValidity('Insira sua data de nascimento')" 
                     onchange="try{setCustomValidity('')}catch(e){}">
                     <label>Nascimento</label>
                 </div>
+                <div class="campo">
+                    <span class="fas fa-lock"></span>
+                    <input type="password" required oninvalid="this.setCustomValidity('Insira sua senha')" 
+                    onchange="try{setCustomValidity('')}catch(e){}">
+                    <label>Senha</label>
+                </div>
+                <div class="campo">
+                    <span class="fas fa-lock"></span>
+                    <input type="password" required oninvalid="this.setCustomValidity('Insira sua senha')" 
+                    onchange="try{setCustomValidity('')}catch(e){}">
+                    <label>Confirmar Senha</label>
+                </div>
                 <button>Cadastrar</button>
                 <div class="cadastrar">
-                    Já registrado?
-                    <a href="login.html">Faça seu login!</a>
+                    Já é registrado?
+                    <a href="login.html">Faça seu login</a>
                 </div>
             </form>
         </div>

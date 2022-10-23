@@ -24,7 +24,7 @@
       <link rel="stylesheet" href="css/owl.theme.default.min.css">
       <!-- Magnific Popup -->
       <link rel="stylesheet" href="css/magnific-popup.css">
-      <link rel="stylesheet" href="css/stylelogin.css">
+      <link rel="stylesheet" href="css/stylecadastro.css">
       <!-- Modernizr JS -->
       <link rel="stylesheet" href="file:///">
       <script src="js/modernizr-2.6.2.min.js"></script>
@@ -36,27 +36,29 @@
 
     <body>
         <div class="content">
-                <div class="text">SINGELOGIN</div>
+                <div class="text">CADASTRO</div>
             <form action="#">
                 <div class="campo">
                     <span class="fas fa-user"></span>
-                    <input type="number" required oninvalid="this.setCustomValidity('Insira telefone com DDD')" 
+                    <input type="text" required oninvalid="this.setCustomValidity('Insira seu nome completo')" 
                     onchange="try{setCustomValidity('')}catch(e){}">
-                    <label for="">TELEFONE</label>
+                    <label for="">Nome Completo</label>
                 </div>
                 <div class="campo">
                     <span class="fas fa-lock"></span>
                     <input type="password" required oninvalid="this.setCustomValidity('Insira sua senha')" 
                     onchange="try{setCustomValidity('')}catch(e){}">
-                    <label>SENHA</label>
+                    <label>E-mail</label>
                 </div>
-                <div class="recuperar-senha">
-                    <a href="#">Recuperar senha</a>
-                </div>
-                <button>ENTRAR</button>
+                <div class="campo">
+                    <span class="fas fa-lock"></span>
+                    <input type="password" required oninvalid="this.setCustomValidity('Insira sua senha')" 
+                    onchange="try{setCustomValidity('')}catch(e){}">
+                    <label>Telefone</label>
+                <button>Enviar</button>
                 <div class="cadastrar">
-                    Ainda não tem registro?
-                    <a href="cadastro.html">Cadastre-se</a>
+                    Já registrado?
+                    <a href="login.html">Faça seu login!</a>
                 </div>
             </form>
         </div>

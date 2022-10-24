@@ -1,3 +1,15 @@
+<?php
+
+    if (isset($_POST[`submit`])) {
+        print_r($_POST[`nome`]);
+        print_r($_POST[`email`]);
+        print_r($_POST[`telefone`]);
+        print_r($_POST[`nascimento`]);
+    }
+
+?>
+
+
 <!DOCTYPE HTML>
 <html lang="pt-br">
    <head>
@@ -37,10 +49,10 @@
     <body>
         <div class="content">
                 <div class="text">CADASTRO</div>
-            <form action="#">
+            <form action="cadastro.php" method="POST">
                 <div class="campo">
                     <span class="fas fa-user"></span>
-                    <input type="text" name="nome_completo" id="nome_completo" class="inputUser" required oninvalid="this.setCustomValidity('Insira seu nome completo')" 
+                    <input type="text" name="nome" id="nome" class="inputUser" required oninvalid="this.setCustomValidity('Insira seu nome completo')" 
                     onchange="try{setCustomValidity('')}catch(e){}">
                     <label for="nome_completo">Nome Completo</label>
                 </div>

@@ -6,7 +6,7 @@
         print_r($_POST[`telefone`]);
         print_r($_POST[`nascimento`]);
     }
-
+ 
 ?>
 
 
